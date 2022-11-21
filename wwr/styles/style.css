@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Reem+Kufi+Ink&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,8 +8,14 @@
 nav a {
     text-align: center;
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
+    font-family:'Mali', 'Avant Garde', sans-serif;
+    padding: 35px;
 }
+    nav a:hover{
+        background-color: #B2CEDE;
+        color:aqua;
+    }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -20,6 +28,9 @@ nav a {
 main section {
     text-align: center;
 }
+    main section img {
+        box-sizing: border-box;
+    }
 
 #background {
     height: 725px;
@@ -29,79 +40,122 @@ main section {
 
 body {
     background-color: #ffffff;
+    font-family:'Reem Kufi Ink', 'Arial', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family:'Mali', 'Avant Garde', sans-serif;
+}
+
+h2 {
+    font-family:'Mali', 'Avant Garde', sans-serif;
+    margin: 0;
+}
+
+h4{
+    color:black;
+    font-family:'Mali', 'Avant Garde', sans-serif;
+    font-size: 2em;
 }
 
 header {
     background-color: #B2CEDE;
 }
 
-nav a:hover{
-    background-color: #B2CEDE;
-    color:aqua
-}
-
 .book, .join {
     background-color: #6190ac;
     text-decoration: none;
-    color:black
+    color:black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+    .book:hover, .join:hover{
+        background-color: #B2CEDE;
+        color:black
+    }
+
+.logo{
+    width:80px;
+    margin: 25px;
+}
+    #logo_link {
+        padding-top: 5px;
+    }
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
 }
 
-.book:hover, .join:hover{
-    background-color: #B2CEDE;
-    color:black
+.home-title{
+    color:white;
+    font-family:'Mali', 'Avant Garde', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg{
     background-color: #6190ac;
+    font-family:'Reem Kufi Ink', 'Arial', sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
+    .msg h2 {
+        color:black;
+        font-family:'Mali', 'Avant Garde', sans-serif;
+    }
 
-footer{
-    background-color: #6190ac;
-    color:black
-}
-
-footer a{
-    text-decoration: none;
-    color:black
-}
-
-footer a:hover{
-    background-color: #B2CEDE;
-    color:black
-}
-.logo{
-    width:80px;
-}
-
-.icon{
-    width: 80px;
-}
-
-.home-title{
-    color:white
-}
-
-h4{
-    color:black
-}
-
-.msg h2 {
-    color:black
-}
-
-.msg p {
-    color:black
-}
+    .msg p {
+        color:black;
+        font-family:'Reem Kufi Ink', 'Arial', sans-serif;
+        font-size: .8em;
+        padding-bottom: 15px;
+    }
 
 #hero-img {
     width:100%;
 }
 
-footer p {
-    font-size: 1.2em;
+.card-img {
+    border:10px solid #6190ac;
+    border-radius: 20px;
 }
 
-footer p a:hover {
-    text-decoration: underline;
+.rivers-card, .camping-card, .rapids-card  {
+    margin: 200px 0;
 }
 
+footer{
+    background-color: #6190ac;
+    color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+    footer a{
+        text-decoration: none;
+        color:black;
+        font-family:'Reem Kufi Ink', 'Arial', sans-serif;
+    }
+
+        footer a:hover{
+            background-color: #B2CEDE;
+            color:black
+        }
+    footer p {
+        font-size: 1.2em;
+        font-family:'Reem Kufi Ink', 'Arial', sans-serif;
+    }
+
+        footer p a:hover {
+            text-decoration: underline;
+            font-family:'Reem Kufi Ink', 'Arial', sans-serif;
+            border-radius: 5px;
+        }
+    footer .social img{
+        padding-top: 15px;
+    }
